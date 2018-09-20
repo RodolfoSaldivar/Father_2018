@@ -10,151 +10,175 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	</head>
 	<body class="blue lighten-5">
-		<!-- Felicidades -->
-		<nav>
-			<div class="nav-wrapper blue">
-				<a class="brand-logo center">¡Felicidades!</a>
-			</div>
-		</nav>
-		<!-- Cards -->
-		<div class="container">
-			<br>
-			<div class="row">
-				<div class="col s12 m6 l3">
-					<div class="card">
-						<div class="card-image">
-							<img src="img/03.jpg">
-						</div>
-						<div class="card-content blue-text text-darken-4">
-							<p>
-								Porque con tu esfuerzo y dedicación haces que nuestras metas y sueños se cumplan.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col s12 m6 l3">
-					<div class="card">
-						<div class="card-image">
-							<img src="img/04.jpg">
-						</div>
-						<div class="card-content blue-text text-darken-4">
-							<p>
-								Porque tu prioridad siempre ha sido enseñarnos a mantener la paz y a la familia unida.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col s12 m6 l3">
-					<div class="card">
-						<div class="card-image">
-							<img src="img/17.jpg">
-						</div>
-						<div class="card-content blue-text text-darken-4">
-							<p>
-								Porque no solo nos enseñas a ser un buen padre, si no también un buen hermano.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col s12 m6 l3">
-					<div class="card">
-						<div class="card-image">
-							<img src="img/05.jpg">
-						</div>
-						<div class="card-content blue-text text-darken-4">
-							<p>
-								Porque tus enseñanzas y alegrías no se quedarán en una generación.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Separador -->
-		<nav><div class="nav-wrapper blue"></div></nav>
-		<!-- Parallax -->
-		<div class="parallax-container">
-			<div class="parallax"><img src="img/22.jpg"></div>
-		</div>
-		<!-- Separador -->
-		<nav><div class="nav-wrapper blue"></div></nav>
-		<!-- Carrusel -->
-		<div class="carousel">
-			<a class="carousel-item"><img src="img/01.jpg"></a>
-			<a class="carousel-item"><img src="img/02.jpg"></a>
-			<a class="carousel-item"><img src="img/06.jpg"></a>
-			<a class="carousel-item"><img src="img/07.jpg"></a>
-			<a class="carousel-item"><img src="img/08.jpg"></a>
-			<a class="carousel-item"><img src="img/13.jpg"></a>
-		</div>
-		<br><br><br><br>
-		<!-- Separador -->
-		<nav><div class="nav-wrapper blue"></div></nav>
-		<!-- Parallax -->
-		<div class="parallax-container">
-			<div class="parallax"><img src="img/16.jpg"></div>
-		</div>
-		<!-- Separador -->
-		<nav><div class="nav-wrapper blue"></div></nav>
-		<!-- Slider -->
-		<div class="slider">
-			<ul class="slides">
-				<li>
-					<img src="img/09.jpg">
-					<div class="caption right-align">
-						<div class="inline_block">
-							<h3>Porque compartes tus <br> mejores experiencias.</h3>
-						</div>
-					</div>
-				</li>
-				<li>
-					<img src="img/10.jpg">
-					<div class="caption left-align" style="top:65%;">
-						<div class="inline_block">
-							<h3>Porque fuiste, eres y serás <br> importante para tu familia.</h3>
-						</div>
-					</div>
-				</li>
-				<li>
-					<img src="img/12.jpg">
-					<div class="caption left-align" style="top:65%;">
-						<div class="inline_block">
-							<h3>Y no solo para tu familia.</h3>
-						</div>
-					</div>
-				</li>
-				<li>
-					<img src="img/14.jpg">
-					<div class="caption right-align" style="top:65%;">
-						<div class="inline_block">
-							<h3>Porque haces que los momentos <br> a tu lado sean los más divertidos.</h3>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-		<!-- Separador -->
-		<nav><div class="nav-wrapper blue"></div></nav>
-		<!-- Final -->
-		<div class="center blue-text text-darken-4">
-			<h2>
-			Porque aunque no lo digamos seguido,
-			</h2>
-			<h3>
-			toda la vida lo hemos pensado y sentido.
-			</h3>
-			<a onclick="mensajeToast()" class="btn-floating btn-large waves-effect waves-light blue pulse">
-				<i class="material-icons">more_horiz</i>
-			</a>
+
+		<div id="cargando" class="center">
 			<br><br><br>
+			<div class="preloader-wrapper big active">
+				<div class="spinner-layer spinner-blue-only">
+					<div class="circle-clipper left">
+						<div class="circle"></div>
+					</div><div class="gap-patch">
+					<div class="circle"></div>
+					</div><div class="circle-clipper right">
+					<div class="circle"></div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<!-- Separador -->
-		<nav><div class="nav-wrapper blue"></div></nav>
+		
+		<div id="contenido">
+			<!-- Felicidades -->
+			<nav>
+				<div class="nav-wrapper blue">
+					<a class="brand-logo center">¡Felicidades!</a>
+				</div>
+			</nav>
+			<!-- Cards -->
+			<div class="container">
+				<br>
+				<div class="row">
+					<div class="col s12 m6 l3">
+						<div class="card">
+							<div class="card-image">
+								<img src="img/03.jpg">
+							</div>
+							<div class="card-content blue-text text-darken-4">
+								<p>
+									Porque con tu esfuerzo y dedicación haces que nuestras metas y sueños se cumplan.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6 l3">
+						<div class="card">
+							<div class="card-image">
+								<img src="img/04.jpg">
+							</div>
+							<div class="card-content blue-text text-darken-4">
+								<p>
+									Porque tu prioridad siempre ha sido enseñarnos a mantener la paz y a la familia unida.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6 l3">
+						<div class="card">
+							<div class="card-image">
+								<img src="img/17.jpg">
+							</div>
+							<div class="card-content blue-text text-darken-4">
+								<p>
+									Porque no solo nos enseñas a ser un buen padre, si no también un buen hermano.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6 l3">
+						<div class="card">
+							<div class="card-image">
+								<img src="img/05.jpg">
+							</div>
+							<div class="card-content blue-text text-darken-4">
+								<p>
+									Porque tus enseñanzas y alegrías no se quedarán en una generación.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Separador -->
+			<nav><div class="nav-wrapper blue"></div></nav>
+			<!-- Parallax -->
+			<div class="parallax-container">
+				<div class="parallax"><img src="img/22.jpg"></div>
+			</div>
+			<!-- Separador -->
+			<nav><div class="nav-wrapper blue"></div></nav>
+			<!-- Carrusel -->
+			<div class="carousel">
+				<a class="carousel-item"><img src="img/01.jpg"></a>
+				<a class="carousel-item"><img src="img/02.jpg"></a>
+				<a class="carousel-item"><img src="img/06.jpg"></a>
+				<a class="carousel-item"><img src="img/07.jpg"></a>
+				<a class="carousel-item"><img src="img/08.jpg"></a>
+				<a class="carousel-item"><img src="img/13.jpg"></a>
+			</div>
+			<br><br><br><br>
+			<!-- Separador -->
+			<nav><div class="nav-wrapper blue"></div></nav>
+			<!-- Parallax -->
+			<div class="parallax-container">
+				<div class="parallax"><img src="img/16.jpg"></div>
+			</div>
+			<!-- Separador -->
+			<nav><div class="nav-wrapper blue"></div></nav>
+			<!-- Slider -->
+			<div class="slider">
+				<ul class="slides">
+					<li>
+						<img src="img/09.jpg">
+						<div class="caption right-align">
+							<div class="inline_block">
+								<h3>Porque compartes tus <br> mejores experiencias.</h3>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="img/10.jpg">
+						<div class="caption left-align" style="top:65%;">
+							<div class="inline_block">
+								<h3>Porque fuiste, eres y serás <br> importante para tu familia.</h3>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="img/12.jpg">
+						<div class="caption left-align" style="top:65%;">
+							<div class="inline_block">
+								<h3>Y no solo para tu familia.</h3>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="img/14.jpg">
+						<div class="caption right-align" style="top:65%;">
+							<div class="inline_block">
+								<h3>Porque haces que los momentos <br> a tu lado sean los más divertidos.</h3>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- Separador -->
+			<nav><div class="nav-wrapper blue"></div></nav>
+			<!-- Final -->
+			<div class="center blue-text text-darken-4">
+				<h2>
+				Porque aunque no lo digamos seguido,
+				</h2>
+				<h3>
+				toda la vida lo hemos pensado y sentido.
+				</h3>
+				<a onclick="mensajeToast()" class="btn-floating btn-large waves-effect waves-light blue pulse">
+					<i class="material-icons">more_horiz</i>
+				</a>
+				<br><br><br>
+			</div>
+			<!-- Separador -->
+			<nav><div class="nav-wrapper blue"></div></nav>
+		</div>
 		
 		<!--JavaScript at end of body for optimized loading-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 		<script type="text/javascript">
 			
+			document.addEventListener('DOMContentLoaded', function() {
+				let cargando = document.querySelector('#cargando');
+				let contenido = document.querySelector('#contenido');
+				cargando.style.display = 'none';
+				contenido.style.display = 'initial';
+			});
 			document.addEventListener('DOMContentLoaded', function() {
 				console.log(1);
 				var elems = document.querySelectorAll('.parallax');
@@ -178,6 +202,7 @@
 				html: '<h1>Eres el mejor papá del mundo.</h1>',
 				classes: 'blue darken-4 center-align'
 			});
+
 		</script>
 	</body>
 </html>

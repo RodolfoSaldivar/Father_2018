@@ -26,3 +26,7 @@ h1, .inline_block h3 {
 	background: rgba(31, 150, 243, .5);
 	padding: 0 25px 0 25px;
 }
+
+#contenido {
+	display: none;
+}
