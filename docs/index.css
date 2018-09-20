@@ -1,7 +1,11 @@
 .carousel .carousel-item {
-	width: 450px;
+	width: 650px;
 	left: -10px;
 	top: -50px;
+}
+
+.carousel {
+	height: 520px;
 }
 
 #toast-container {
@@ -30,4 +34,9 @@ h1, .inline_block h3 {
 nav .nav-wrapper, nav {
 	background-color: #2196F3 !important;
 	z-index: -1; 
+}
+
+@media only screen and (min-width: 0)
+html {
+    font-size: 14px;
 }
