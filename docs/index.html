@@ -29,7 +29,7 @@
 		<div id="contenido">
 			<!-- Felicidades -->
 			<nav>
-				<div class="nav-wrapper blue">
+				<div class="nav-wrapper">
 					<a class="brand-logo center">¡Felicidades!</a>
 				</div>
 			</nav>
@@ -40,7 +40,7 @@
 					<div class="col s12 m6 l3">
 						<div class="card">
 							<div class="card-image">
-								<img src="img/03.jpg">
+								<img class="materialboxed" src="img/03.jpg">
 							</div>
 							<div class="card-content blue-text text-darken-4">
 								<p>
@@ -52,7 +52,7 @@
 					<div class="col s12 m6 l3">
 						<div class="card">
 							<div class="card-image">
-								<img src="img/04.jpg">
+								<img class="materialboxed" src="img/04.jpg">
 							</div>
 							<div class="card-content blue-text text-darken-4">
 								<p>
@@ -64,7 +64,7 @@
 					<div class="col s12 m6 l3">
 						<div class="card">
 							<div class="card-image">
-								<img src="img/17.jpg">
+								<img class="materialboxed" src="img/17.jpg">
 							</div>
 							<div class="card-content blue-text text-darken-4">
 								<p>
@@ -76,7 +76,7 @@
 					<div class="col s12 m6 l3">
 						<div class="card">
 							<div class="card-image">
-								<img src="img/05.jpg">
+								<img class="materialboxed" src="img/05.jpg">
 							</div>
 							<div class="card-content blue-text text-darken-4">
 								<p>
@@ -88,31 +88,31 @@
 				</div>
 			</div>
 			<!-- Separador -->
-			<nav><div class="nav-wrapper blue"></div></nav>
+			<nav><div class="nav-wrapper"></div></nav>
 			<!-- Parallax -->
 			<div class="parallax-container">
 				<div class="parallax"><img src="img/22.jpg"></div>
 			</div>
 			<!-- Separador -->
-			<nav><div class="nav-wrapper blue"></div></nav>
+			<nav><div class="nav-wrapper"></div></nav>
 			<!-- Carrusel -->
 			<div class="carousel">
-				<a class="carousel-item"><img src="img/01.jpg"></a>
-				<a class="carousel-item"><img src="img/02.jpg"></a>
-				<a class="carousel-item"><img src="img/06.jpg"></a>
-				<a class="carousel-item"><img src="img/07.jpg"></a>
-				<a class="carousel-item"><img src="img/08.jpg"></a>
-				<a class="carousel-item"><img src="img/13.jpg"></a>
+				<a class="carousel-item"><img style="width: 100%" class="materialboxed" src="img/01.jpg"></a>
+				<a class="carousel-item"><img style="width: 100%" class="materialboxed" src="img/02.jpg"></a>
+				<a class="carousel-item"><img style="width: 100%" class="materialboxed" src="img/06.jpg"></a>
+				<a class="carousel-item"><img style="width: 100%" class="materialboxed" src="img/07.jpg"></a>
+				<a class="carousel-item"><img style="width: 100%" class="materialboxed" src="img/08.jpg"></a>
+				<a class="carousel-item"><img style="width: 100%" class="materialboxed" src="img/13.jpg"></a>
 			</div>
 			<br><br><br><br>
 			<!-- Separador -->
-			<nav><div class="nav-wrapper blue"></div></nav>
+			<nav><div class="nav-wrapper"></div></nav>
 			<!-- Parallax -->
 			<div class="parallax-container">
 				<div class="parallax"><img src="img/16.jpg"></div>
 			</div>
 			<!-- Separador -->
-			<nav><div class="nav-wrapper blue"></div></nav>
+			<nav><div class="nav-wrapper"></div></nav>
 			<!-- Slider -->
 			<div class="slider">
 				<ul class="slides">
@@ -151,7 +151,7 @@
 				</ul>
 			</div>
 			<!-- Separador -->
-			<nav><div class="nav-wrapper blue"></div></nav>
+			<nav><div class="nav-wrapper"></div></nav>
 			<!-- Final -->
 			<div class="center blue-text text-darken-4">
 				<h2>
@@ -166,7 +166,7 @@
 				<br><br><br>
 			</div>
 			<!-- Separador -->
-			<nav><div class="nav-wrapper blue"></div></nav>
+			<nav><div class="nav-wrapper"></div></nav>
 		</div>
 		
 		<!--JavaScript at end of body for optimized loading-->
@@ -179,6 +179,9 @@
 					let contenido = document.querySelector('#contenido');
 					cargando.style.display = 'none';
 					contenido.style.display = 'block';
+
+					var elems = document.querySelectorAll('.materialboxed');
+    				var instances = M.Materialbox.init(elems, {});
 
 					var elems = document.querySelectorAll('.carousel');
 					var instances = M.Carousel.init(elems, {

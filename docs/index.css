@@ -30,3 +30,8 @@ h1, .inline_block h3 {
 #contenido {
 	display: none;
 }
+
+nav .nav-wrapper, nav {
+	background-color: #2196F3 !important;
+	z-index: -1; 
+}
