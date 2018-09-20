@@ -174,10 +174,12 @@
 		<script type="text/javascript">
 			
 			document.addEventListener('DOMContentLoaded', function() {
-				let cargando = document.querySelector('#cargando');
-				let contenido = document.querySelector('#contenido');
-				cargando.style.display = 'none';
-				contenido.style.display = 'initial';
+				setTimeout(() => {
+					let cargando = document.querySelector('#cargando');
+					let contenido = document.querySelector('#contenido');
+					cargando.style.display = 'none';
+					contenido.style.display = 'initial';
+				}, 1500);
 			});
 			document.addEventListener('DOMContentLoaded', function() {
 				console.log(1);
