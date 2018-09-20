@@ -1,20 +1,28 @@
 .carousel .carousel-item {
-	visibility: hidden;
-	width: 340px;
-	height: 200px;
-	position: absolute;
-	top: 0;
+	width: 650px;
 	left: -10px;
+	top: -50px;
+}
+
+.carousel {
+	height: 520px;
 }
 
 #toast-container {
 	width: 90%;
 }
 
-h1 {
+h1, .inline_block h3 {
 	margin: 25px 0 25px 0;
 }
 
 .toast {
 	justify-content: center;
+}
+
+.inline_block {
+	display: inline-block;
+	background-color: grey;
+	background: rgba(31, 150, 243, .5);
+	padding: 0 25px 0 25px;
 }
