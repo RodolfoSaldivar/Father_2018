@@ -1,0 +1,20 @@
+.carousel .carousel-item {
+	visibility: hidden;
+	width: 340px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: -10px;
+}
+
+#toast-container {
+	width: 90%;
+}
+
+h1 {
+	margin: 25px 0 25px 0;
+}
+
+.toast {
+	justify-content: center;
+}
