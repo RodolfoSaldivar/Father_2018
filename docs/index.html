@@ -178,27 +178,24 @@
 					let cargando = document.querySelector('#cargando');
 					let contenido = document.querySelector('#contenido');
 					cargando.style.display = 'none';
-					contenido.style.display = 'initial';
-				}, 1500);
-			});
-			document.addEventListener('DOMContentLoaded', function() {
-				console.log(1);
-				var elems = document.querySelectorAll('.parallax');
-				var instances = M.Parallax.init(elems, {});
-			});
-			document.addEventListener('DOMContentLoaded', function() {
-				var elems = document.querySelectorAll('.carousel');
-				var instances = M.Carousel.init(elems, {
-					dist: -150
-				});
-			});
-			document.addEventListener('DOMContentLoaded', function() {
-				var elems = document.querySelectorAll('.slider');
-				var instances = M.Slider.init(elems, {
-					interval: 5000,
-					height: 750,
-					indicators: false
-				});
+					contenido.style.display = 'block';
+
+					var elems = document.querySelectorAll('.carousel');
+					var instances = M.Carousel.init(elems, {
+						dist: -150
+					});
+
+					var elems = document.querySelectorAll('.parallax');
+					var instances = M.Parallax.init(elems, {});
+
+					var elems = document.querySelectorAll('.slider');
+					var instances = M.Slider.init(elems, {
+						interval: 5000,
+						height: 750,
+						indicators: false
+					});
+
+				}, 1000);
 			});
 			const mensajeToast = () => M.toast({
 				html: '<h1>Eres el mejor papá del mundo.</h1>',
